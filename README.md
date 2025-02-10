@@ -41,6 +41,7 @@ This report outlines strategies for improving text analytics data quality using 
 
 Example Inputs and Expected Results
 
+
 1. Sentiment Analysis Cases
 This will determine whether the text is Positive, Negative, or Neutral.
 
@@ -49,6 +50,7 @@ This will determine whether the text is Positive, Negative, or Neutral.
 | "I love this product! It's amazing." |         Positive          |
 | "This is the worst experience ever." |         Negative          |
 | "The weather is nice today."         |          Neutral          |
+
 
 
 2. Named Entity Recognition (NER) Cases
@@ -61,6 +63,7 @@ This will extract important entities such as names, places, dates, and organizat
 | "Apple launched the iPhone 15 on September 12, 2023." |  Apple (ORG), iPhone 15 (PRODUCT), September 12, 2023 (DATE)  |
 
 
+
 3. Text Cleaning Cases
 This will remove special characters and lowercase text.
 
@@ -69,6 +72,7 @@ This will remove special characters and lowercase text.
 | "Hello!!! How are you??? 😊"     |  "hello how are you"             |
 | "Python3.9 is great for AI!"      |  "python39 is great for ai"      |
 | "The cost of this item is $5.99." |  "the cost of this item is 599"  |
+
 
 
 4. Mixed Case (Sentiment + NER + Cleaning)
@@ -82,6 +86,7 @@ This will test all functionalities together.
 | "I hate slow internet, but Google Fiber is really fast!" | - Entities: Google Fiber (ORG) <br>                                                                   |
 |                                                          | - Sentiment: Positive <br>                                                                            |
 |                                                          | - Cleaned Text: "i hate slow internet but google fiber is really fast"                                |
+
 
 
 How to Use These Cases in Your App
